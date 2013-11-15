@@ -1,0 +1,71 @@
+body{
+	font-size: 18px;
+	line-height: 20px;
+	font-family: serif,sans-serif;
+}
+
+body a,li{
+	text-decoration: none;
+	list-style-type: none;
+	color: inherit;
+}
+body >header{
+	position: fixed;
+	top: 0px;
+}
+body>header h1 {
+	display: inline-block;
+	vertical-align: top;
+}
+body>header nav{
+	display: inline-block;
+	margin-left: 50px;
+}
+body>header nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+body > section{
+	margin-top: 100px;
+}
+body>footer>div{
+	display: inline-block;
+	width: 32%;
+	vertical-align: top;
+	padding: 20px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position: relative;
+	height: 250px;
+	text-align:justify;
+}
+body >footer > div  > h1{
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	border-bottom: 1px solid hsl(0, 3%, 22%);
+}
+body >footer > div >a{
+	position: absolute;
+	left: 30px;
+	bottom: 0px;
+	color: hsl(145, 77%, 42%);
+}
+body >footer > div:nth-child(3) li{
+	margin-top: 10px;
+}
+body >footer>aside{
+	display: block;
+	position:relative;
+	margin-top: 50px;
+}
+body >footer > aside p{
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body >footer > aside p:last-child{
+	float: right;
+}
