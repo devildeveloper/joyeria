@@ -27,7 +27,11 @@ body>header nav li{
 }
 body > section{
 	margin-top: 100px;
+	padding: 20px;
+	box-sizing:border-box;
+	-mozbox-sizing:border-box
 }
+
 body>footer>div{
 	display: inline-block;
 	width: 32%;
